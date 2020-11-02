@@ -3,8 +3,8 @@ require 'pry'
 
 def snake_it_up(string)
   if string[0] == "s"
-    puts string = "ssssssssss" + string
+    p string = "ssssssssss" + string
   else
-    puts string
+    p string
   end
 end
